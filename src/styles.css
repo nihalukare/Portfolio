@@ -1,0 +1,28 @@
+html,
+body,
+#root {
+  height: 100%;
+}
+body {
+  font-family: "Inter", system-ui, Arial, sans-serif;
+  background: #0b0b0b;
+  color: #e8eef0;
+  position: relative;
+}
+.hr-width {
+  width: 20rem;
+}
+.card {
+  background-color: #0a0a0a;
+  color: white;
+}
+.card a {
+  color: white;
+}
+.scroll-top {
+  text-decoration: none;
+  color: #e8eef0;
+}
+.scroll-top:hover {
+  cursor: pointer;
+}
