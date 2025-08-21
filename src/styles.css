@@ -12,6 +12,21 @@ body {
 .hr-width {
   width: 20rem;
 }
+@media (max-width: 576px) {
+  .hr-width {
+    width: 10rem;
+  }
+
+  .w-xs-100 {
+    width: 100%;
+  }
+}
+
+@media (min-width: 576px) {
+  .w-md-75 {
+    width: 75%;
+  }
+}
 .card {
   background-color: #0a0a0a;
   color: white;

@@ -3,7 +3,7 @@ export default function Hero() {
     <>
       <section className="bg-black text-white" id="home">
         <div className="container py-md-5 mt-5">
-          <div className="w-md-75 my-5 py-5">
+          <div className="w-md-75 my-md-5 py-5">
             <h1 className="display-3 fw-semibold">
               Hi, I'm <span className="text-info">Nihal Ukare</span>
             </h1>
@@ -21,7 +21,7 @@ export default function Hero() {
           <div className="d-flex gap-2">
             <a
               href="#contact"
-              className="btn btn-info rounded-3 px-5 lift-on-hover"
+              className="btn btn-info rounded-3 px-md-5 px-4 lift-on-hover"
             >
               <i className="bi bi-envelope-fill me-2"></i>
               Contact Me
@@ -29,7 +29,7 @@ export default function Hero() {
             <a
               href="/Resume.pdf"
               target="_blank"
-              className="btn btn-outline-info rounded-3 px-5 lift-on-hover"
+              className="btn btn-outline-info rounded-3 px-md-5 px-4 lift-on-hover"
               rel="noopener noreferrer"
             >
               <i className="bi bi-filetype-pdf me-2"></i>
