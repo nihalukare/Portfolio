@@ -21,7 +21,7 @@ export default function ScrollToTopButton() {
 
   return (
     <button
-      className={`btn btn-info rounded-circle p-2 m-4 position-fixed bottom-0 end-0 fade ${
+      className={`btn btn-info rounded-circle p-md-2 m-md-4 p-1 m-3 position-fixed bottom-0 end-0 fade ${
         visible ? "show" : ""
       }`}
       id="scrollTopBtn"
