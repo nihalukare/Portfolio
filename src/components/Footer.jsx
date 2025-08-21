@@ -4,7 +4,7 @@ export default function Footer() {
       <div className="text-center my-5">
         <p>&copy; 2025 Nihal Ukare • All rights reserved</p>
         <p>
-          Built with <i class="bi bi-heart-fill text-danger"></i> using
+          Built with <i className="bi bi-heart-fill text-danger"></i> using
           Bootstrap and React
         </p>
       </div>
