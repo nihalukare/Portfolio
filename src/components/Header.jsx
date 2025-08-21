@@ -31,7 +31,7 @@ export default function Header() {
             </button>
 
             <div className="collapse navbar-collapse" id="navbarContent">
-              <ul className="navbar-nav ms-auto mb-2 mb-lg-0 gap-4">
+              <ul className="navbar-nav ms-auto mb-2 mb-lg-0 gap-md-4">
                 <li className="nav-item">
                   <a href="#projects" className="nav-link">
                     Projects

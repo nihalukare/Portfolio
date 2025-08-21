@@ -2,8 +2,8 @@ export default function Hero() {
   return (
     <>
       <section className="bg-black text-white" id="home">
-        <div className="container py-5 mt-5">
-          <div className="w-75 my-5 py-5">
+        <div className="container py-md-5 mt-5">
+          <div className="w-md-75 my-5 py-5">
             <h1 className="display-3 fw-semibold">
               Hi, I'm <span className="text-info">Nihal Ukare</span>
             </h1>
