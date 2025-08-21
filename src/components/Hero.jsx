@@ -19,19 +19,13 @@ export default function Hero() {
             </p>
           </div>
           <div className="d-flex gap-2">
-            <a
-              href=""
-              target="_blank"
-              rel="noopener noreferrer"
-              className="btn btn-info rounded-3 px-5"
-            >
+            <a href="#contact" className="btn btn-info rounded-3 px-5">
               <i className="bi bi-envelope-fill me-2"></i>
               Contact Me
             </a>
             <a
-              href=""
+              href="/Resume.pdf"
               target="_blank"
-              rel="noopener noreferrer"
               className="btn btn-outline-info rounded-3 px-5"
             >
               <i className="bi bi-filetype-pdf me-2"></i>

@@ -22,7 +22,7 @@ export default function Projects() {
       tags: ["React", "Express", "MongoDB", "Bootstrap"],
       imgUrl: "/images/meet-up-app.png",
       demo: "https://bi-assignment-1-frontend-beta.vercel.app/",
-      code: "https://github.com/nihalukare/BI_Assignment_1_frontend",
+      code: "https://github.com/nihalukare/BI_Meetup_frontend",
     },
   ];
   return (
