@@ -43,7 +43,7 @@ export default function Contact() {
           <div className="row g-4">
             {contacts.map((contact, index) => (
               <div key={index} className="col-md-6">
-                <div className="card">
+                <div className="card lift-on-hover">
                   <div className="card-body">
                     <h5 className="card-title d-flex gap-3 align-items-center mb-3">
                       <span className="inline-block">{contact.logo}</span>{" "}

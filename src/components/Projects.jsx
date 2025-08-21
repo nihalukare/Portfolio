@@ -38,7 +38,7 @@ export default function Projects() {
             <div className="row g-4">
               {projects.map((project, index) => (
                 <div key={index} className="col-md-4">
-                  <div className="card border-0 h-100">
+                  <div className="card border-0 h-100 lift-on-hover">
                     <img
                       src={project.imgUrl}
                       className="card-img-top"
@@ -62,7 +62,7 @@ export default function Projects() {
                             href={project.demo}
                             target="_blank"
                             rel="noopener noreferrer"
-                            className="btn"
+                            className="btn btn-outline-dark"
                           >
                             <i className="bi bi-eye"></i> Demo
                           </a>
@@ -70,7 +70,7 @@ export default function Projects() {
                             href={project.code}
                             target="_blank"
                             rel="noopener noreferrer"
-                            className="btn"
+                            className="btn btn-outline-dark"
                           >
                             <i className="bi bi-github me-1"></i> Code
                           </a>

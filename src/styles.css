@@ -26,3 +26,9 @@ body {
 .scroll-top:hover {
   cursor: pointer;
 }
+.lift-on-hover {
+  transition: transform 0.2s ease;
+}
+.lift-on-hover:hover {
+  transform: translateY(-5px);
+}

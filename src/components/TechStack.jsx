@@ -75,7 +75,7 @@ export default function TechStack() {
           <div className="row g-4">
             {techStack.map((tech, index) => (
               <div key={index} className="col-md-3">
-                <div className="card bg-black border border-secondary">
+                <div className="card bg-black border border-secondary lift-on-hover">
                   <div className="card-body d-flex gap-2 align-items-center">
                     {tech.techIcon}
                     <p className="m-0 fs-4">{tech.techName}</p>
