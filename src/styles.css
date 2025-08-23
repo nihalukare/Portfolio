@@ -47,3 +47,6 @@ body {
 .lift-on-hover:hover {
   transform: translateY(-5px);
 }
+.card:hover {
+  background-color: #101010;
+}
